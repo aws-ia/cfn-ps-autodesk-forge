@@ -1,5 +1,5 @@
 project:
-  name: quickstart-autodesk-forge
+  name: cfn-ps-autodesk-forge
   owner: quickstart-eng@amazon.com
   package_lambda: false
   shorten_stack_name: true
@@ -43,7 +43,7 @@ tests:
       PublicSubnet2CIDR: 10.0.144.0/20
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3KeyPrefix: quickstart-autodesk-forge/
+      QSS3KeyPrefix: cfn-ps-autodesk-forge/
       RemoteAccessCIDR: 10.0.0.0/16
       VPCCIDR: 10.0.0.0/16
     regions:
@@ -78,7 +78,7 @@ tests:
       PublicSubnet2CIDR: 10.0.144.0/20
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3KeyPrefix: quickstart-autodesk-forge/
+      QSS3KeyPrefix: cfn-ps-autodesk-forge/
       RemoteAccessCIDR: 10.0.0.0/16
       VPCCIDR: 10.0.0.0/16
     regions:
