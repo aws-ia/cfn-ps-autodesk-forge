@@ -1,4 +1,9 @@
 # quickstart-autodesk-forge
+## Deprecation Notice
+
+:x: This repository is subject to deprecation in Q4 2024. For more details, [please review this announcement](https://github.com/aws-ia/.announcements/issues/1). 
+
+
 ## Autodesk Forge on the AWS Cloud
 
 This Quick Start sets up an Amazon Web Services (AWS) architecture and deploys an Autodesk Forge application environment on the AWS Cloud for customizable building blocks in the form of web service APIs, tools, and services. The deployment, which takes about 15 minutes, uses AWS best practices to address common scalability, high availability, and security requirements.
